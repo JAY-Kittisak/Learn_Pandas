@@ -1,0 +1,23 @@
+{
+  "name": "Learn_Pandas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git": "git add . && git commit -m 'test' && git push",
+    "pyuic": "pyuic5 -x qt5_app_multiplication.ui -o qt5_app_multiplication_V1.py",
+    "pyrcc5": "pyrcc5 Learn_Mylogo.qrc -o Learn_Mylogo_rc.py",
+    "exe": "pyinstaller Multiplication.py --onefile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAY-Kittisak/Learn_QT5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JAY-Kittisak/Learn_QT5/issues"
+  },
+  "homepage": "https://github.com/JAY-Kittisak/Learn_QT5#readme"
+}
